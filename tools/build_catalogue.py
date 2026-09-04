@@ -99,10 +99,33 @@ def couleur_marque(chemin: pathlib.Path) -> str | None:
     return compte.most_common(1)[0][0]
 
 
+# Un slug est une chaîne ASCII : `batiment`, `cle`, `memoire`. Le rendre tel quel dans une
+# page française donnerait « Batiment », « Cle », « Agent memoire ». Le slug reste
+# l'identifiant, mais le nom affiché s'écrit en français accentué.
+ACCENTS = {
+    "batiment": "bâtiment", "casse": "cassé", "cle": "clé", "conformite": "conformité",
+    "decideurs": "décideurs", "demarrage": "démarrage", "donnees": "données",
+    "duree": "durée", "equipes": "équipes", "etat": "état", "ia": "IA",
+    "legal": "légal", "mcp": "MCP", "memoire": "mémoire", "procedure": "procédure",
+    "representant": "représentant", "systeme": "système", "telephone": "téléphone",
+    "verification": "vérification",
+}
+NOMS_ENTIERS = {
+    "cas-usage": "Cas d'usage",
+    "etat-des-lieux": "État des lieux",
+    "reste-a-charge": "Reste à charge",
+    "systeme-information": "Système d'information",
+}
+
+
 def nom_lisible(slug: str) -> str:
     """`feuille-de-route` → « Feuille de route ». Repli quand aucune source ne nomme l'asset."""
-    mots = slug.replace("_", "-").split("-")
-    return " ".join([mots[0].capitalize(), *mots[1:]])
+    if slug in NOMS_ENTIERS:
+        return NOMS_ENTIERS[slug]
+    mots = [ACCENTS.get(m, m) for m in slug.replace("_", "-").split("-")]
+    tete = mots[0]
+    tete = tete if tete.isupper() else tete[:1].upper() + tete[1:]
+    return " ".join([tete, *mots[1:]])
 
 
 def provenance_vendors() -> dict[str, dict]:

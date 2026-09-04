@@ -1575,7 +1575,7 @@
   },
   {
    "slug": "agent-mcp",
-   "nom": "Agent mcp",
+   "nom": "Agent MCP",
    "fichier": "icons/agent-mcp.svg",
    "type": "icon",
    "format": "svg",
@@ -1590,7 +1590,7 @@
   },
   {
    "slug": "agent-memoire",
-   "nom": "Agent memoire",
+   "nom": "Agent mémoire",
    "fichier": "icons/agent-memoire.svg",
    "type": "icon",
    "format": "svg",
@@ -1725,7 +1725,7 @@
   },
   {
    "slug": "batiment",
-   "nom": "Batiment",
+   "nom": "Bâtiment",
    "fichier": "icons/batiment.svg",
    "type": "icon",
    "format": "svg",
@@ -1785,7 +1785,7 @@
   },
   {
    "slug": "cas-usage",
-   "nom": "Cas usage",
+   "nom": "Cas d'usage",
    "fichier": "icons/cas-usage.svg",
    "type": "icon",
    "format": "svg",
@@ -1815,7 +1815,7 @@
   },
   {
    "slug": "cle",
-   "nom": "Cle",
+   "nom": "Clé",
    "fichier": "icons/cle.svg",
    "type": "icon",
    "format": "svg",
@@ -1860,7 +1860,7 @@
   },
   {
    "slug": "conformite",
-   "nom": "Conformite",
+   "nom": "Conformité",
    "fichier": "icons/conformite.svg",
    "type": "icon",
    "format": "svg",
@@ -1920,7 +1920,7 @@
   },
   {
    "slug": "decideurs",
-   "nom": "Decideurs",
+   "nom": "Décideurs",
    "fichier": "icons/decideurs.svg",
    "type": "icon",
    "format": "svg",
@@ -1935,7 +1935,7 @@
   },
   {
    "slug": "demarrage",
-   "nom": "Demarrage",
+   "nom": "Démarrage",
    "fichier": "icons/demarrage.svg",
    "type": "icon",
    "format": "svg",
@@ -1980,7 +1980,7 @@
   },
   {
    "slug": "donnees",
-   "nom": "Donnees",
+   "nom": "Données",
    "fichier": "icons/donnees.svg",
    "type": "icon",
    "format": "svg",
@@ -2010,7 +2010,7 @@
   },
   {
    "slug": "duree",
-   "nom": "Duree",
+   "nom": "Durée",
    "fichier": "icons/duree.svg",
    "type": "icon",
    "format": "svg",
@@ -2055,7 +2055,7 @@
   },
   {
    "slug": "equipes",
-   "nom": "Equipes",
+   "nom": "Équipes",
    "fichier": "icons/equipes.svg",
    "type": "icon",
    "format": "svg",
@@ -2070,7 +2070,7 @@
   },
   {
    "slug": "etat-des-lieux",
-   "nom": "Etat des lieux",
+   "nom": "État des lieux",
    "fichier": "icons/etat-des-lieux.svg",
    "type": "icon",
    "format": "svg",
@@ -2115,7 +2115,7 @@
   },
   {
    "slug": "ia",
-   "nom": "Ia",
+   "nom": "IA",
    "fichier": "icons/ia.svg",
    "type": "icon",
    "format": "svg",
@@ -2145,7 +2145,7 @@
   },
   {
    "slug": "lien-casse",
-   "nom": "Lien casse",
+   "nom": "Lien cassé",
    "fichier": "icons/lien-casse.svg",
    "type": "icon",
    "format": "svg",
@@ -2265,7 +2265,7 @@
   },
   {
    "slug": "procedure",
-   "nom": "Procedure",
+   "nom": "Procédure",
    "fichier": "icons/procedure.svg",
    "type": "icon",
    "format": "svg",
@@ -2355,7 +2355,7 @@
   },
   {
    "slug": "representant-legal",
-   "nom": "Representant legal",
+   "nom": "Représentant légal",
    "fichier": "icons/representant-legal.svg",
    "type": "icon",
    "format": "svg",
@@ -2370,7 +2370,7 @@
   },
   {
    "slug": "reste-a-charge",
-   "nom": "Reste a charge",
+   "nom": "Reste à charge",
    "fichier": "icons/reste-a-charge.svg",
    "type": "icon",
    "format": "svg",
@@ -2460,7 +2460,7 @@
   },
   {
    "slug": "systeme-information",
-   "nom": "Systeme information",
+   "nom": "Système d'information",
    "fichier": "icons/systeme-information.svg",
    "type": "icon",
    "format": "svg",
@@ -2475,7 +2475,7 @@
   },
   {
    "slug": "telephone",
-   "nom": "Telephone",
+   "nom": "Téléphone",
    "fichier": "icons/telephone.svg",
    "type": "icon",
    "format": "svg",
@@ -2505,7 +2505,7 @@
   },
   {
    "slug": "verification",
-   "nom": "Verification",
+   "nom": "Vérification",
    "fichier": "icons/verification.svg",
    "type": "icon",
    "format": "svg",
