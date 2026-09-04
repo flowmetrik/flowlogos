@@ -1,0 +1,800 @@
+[
+ {
+  "file": "airtable.svg",
+  "marque": "Airtable",
+  "source": "https://cdn.simpleicons.org/airtable",
+  "releve": "2026-09-03",
+  "usage": "outillage Alegria — base métier"
+ },
+ {
+  "file": "altaix.png",
+  "marque": "Altaïx",
+  "source": "https://www.soprarealestate.com/wp-content/uploads/2025/06/altaix-logo.png",
+  "releve": "2026-08-28",
+  "usage": "schéma « qu'est-ce qu'un agent IA » — outil immobilier, pas un client"
+ },
+ {
+  "file": "altus.svg",
+  "marque": "Altus Group",
+  "source": "https://images.ctfassets.net/8jgyidtgyr4v/5be0JQK347L26I07IDA1WW/39d075aa0afa3c3ab3f584c0b1a00123/Altus-Group-logo.svg",
+  "releve": "2026-08-24",
+  "usage": "idem"
+ },
+ {
+  "file": "anthropic.svg",
+  "marque": "Anthropic",
+  "source": "https://cdn.simpleicons.org/anthropic",
+  "releve": "2026-09-04",
+  "usage": "l'éditeur de Claude — provenance rétablie par comparaison sha256 avec le CDN"
+ },
+ {
+  "file": "apify.png",
+  "marque": "Apify",
+  "source": "https://img.logo.dev/apify.com",
+  "releve": "2026-09-04",
+  "usage": "acteurs de scraping"
+ },
+ {
+  "file": "asana.svg",
+  "marque": "Asana",
+  "source": "https://cdn.simpleicons.org/asana",
+  "releve": "2026-09-04",
+  "usage": "gestion de projet"
+ },
+ {
+  "file": "attio.png",
+  "marque": "Attio",
+  "source": "https://img.logo.dev/attio.com",
+  "releve": "2026-08-25",
+  "usage": "le CRM Flowmetrik"
+ },
+ {
+  "file": "aws.svg",
+  "marque": "Amazon Web Services",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg",
+  "releve": "2026-09-04",
+  "usage": "Bedrock — modèles hébergés — logo.dev rendait le favicon microsoft.com/amazon.com, repris sur Wikimedia Commons"
+ },
+ {
+  "file": "azure.svg",
+  "marque": "Microsoft Azure",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg",
+  "releve": "2026-09-04",
+  "usage": "Azure OpenAI — frontière de données UE — logo.dev rendait le favicon microsoft.com/amazon.com, repris sur Wikimedia Commons"
+ },
+ {
+  "file": "brightdata.png",
+  "marque": "Bright Data",
+  "source": "https://img.logo.dev/brightdata.com",
+  "releve": "2026-08-25",
+  "usage": "fiches d'établissements à grande échelle"
+ },
+ {
+  "file": "canva.png",
+  "marque": "Canva",
+  "source": "https://img.logo.dev/canva.com",
+  "releve": "2026-09-04",
+  "usage": "création graphique côté métier"
+ },
+ {
+  "file": "cegid.png",
+  "marque": "Cegid",
+  "source": "https://img.logo.dev/cegid.com",
+  "releve": "2026-09-04",
+  "usage": "paie, compta et gestion — éditeur français"
+ },
+ {
+  "file": "chorus-pro.png",
+  "marque": "Chorus Pro",
+  "source": "https://img.logo.dev/chorus-pro.gouv.fr",
+  "releve": "2026-08-25",
+  "usage": "dépôt des factures au secteur public"
+ },
+ {
+  "file": "claude.png",
+  "marque": "Claude",
+  "source": "https://img.logo.dev/claude.ai",
+  "releve": "2026-08-25",
+  "usage": "l'agent de la maison"
+ },
+ {
+  "file": "claude.svg",
+  "marque": "Claude",
+  "source": "https://cdn.simpleicons.org/claude",
+  "releve": "2026-08-25",
+  "usage": "l'agent de la maison"
+ },
+ {
+  "file": "cloudflare.svg",
+  "marque": "Cloudflare",
+  "source": "https://cdn.simpleicons.org/cloudflare",
+  "releve": "2026-09-04",
+  "usage": "DNS, tunnels et captcha"
+ },
+ {
+  "file": "confluence.svg",
+  "marque": "Confluence",
+  "source": "https://cdn.simpleicons.org/confluence",
+  "releve": "2026-09-04",
+  "usage": "base documentaire"
+ },
+ {
+  "file": "copilot.svg",
+  "marque": "GitHub Copilot",
+  "source": "https://cdn.simpleicons.org/githubcopilot",
+  "releve": "2026-08-25",
+  "usage": "assistant de code en entreprise"
+ },
+ {
+  "file": "coupa.png",
+  "marque": "Coupa",
+  "source": null,
+  "releve": null,
+  "usage": "logo d'éditeur — antérieur au relevé de provenance, source d'origine inconnue"
+ },
+ {
+  "file": "dashlane.png",
+  "marque": "Dashlane",
+  "source": "https://img.logo.dev/dashlane.com",
+  "releve": "2026-08-25",
+  "usage": "coffre à mots de passe de l'équipe"
+ },
+ {
+  "file": "dashlane.svg",
+  "marque": "Dashlane",
+  "source": "https://cdn.simpleicons.org/dashlane",
+  "releve": "2026-08-25",
+  "usage": "coffre à mots de passe de l'équipe"
+ },
+ {
+  "file": "databricks.svg",
+  "marque": "Databricks",
+  "source": "https://cdn.simpleicons.org/databricks",
+  "releve": "2026-09-04",
+  "usage": "plateforme data"
+ },
+ {
+  "file": "deepki.svg",
+  "marque": "Deepki",
+  "source": "https://www.deepki.com/web/wp-content/themes/deepki/img/deepki-logo-black.svg",
+  "releve": "2026-08-24",
+  "usage": "schéma « qu'est-ce qu'un agent IA » — outil du secteur, pas un client"
+ },
+ {
+  "file": "docker.svg",
+  "marque": "Docker",
+  "source": "https://cdn.simpleicons.org/docker",
+  "releve": "2026-09-04",
+  "usage": "conteneurs"
+ },
+ {
+  "file": "docusign.png",
+  "marque": "Docusign",
+  "source": "https://img.logo.dev/docusign.com",
+  "releve": "2026-09-04",
+  "usage": "signature électronique"
+ },
+ {
+  "file": "dropbox.svg",
+  "marque": "Dropbox",
+  "source": "https://cdn.simpleicons.org/dropbox",
+  "releve": "2026-09-04",
+  "usage": "stockage de fichiers"
+ },
+ {
+  "file": "esker.svg",
+  "marque": "Esker",
+  "source": null,
+  "releve": null,
+  "usage": "logo d'éditeur — antérieur au relevé de provenance, source d'origine inconnue"
+ },
+ {
+  "file": "excalidraw.png",
+  "marque": "Excalidraw",
+  "source": "https://img.logo.dev/excalidraw.com",
+  "releve": "2026-08-25",
+  "usage": "schémas"
+ },
+ {
+  "file": "excalidraw.svg",
+  "marque": "Excalidraw",
+  "source": "https://cdn.simpleicons.org/excalidraw",
+  "releve": "2026-08-25",
+  "usage": "schémas"
+ },
+ {
+  "file": "figma.svg",
+  "marque": "Figma",
+  "source": "https://cdn.simpleicons.org/figma",
+  "releve": "2026-09-04",
+  "usage": "maquettes et design"
+ },
+ {
+  "file": "file-pdf.svg",
+  "marque": "PDF",
+  "source": "dessin interne Flowmetrik — pictogramme documentaire générique",
+  "releve": "2026-08-28",
+  "usage": "schéma « qu'est-ce qu'un agent IA » — source documentaire"
+ },
+ {
+  "file": "firecrawl.png",
+  "marque": "Firecrawl",
+  "source": "https://img.logo.dev/firecrawl.dev",
+  "releve": "2026-09-04",
+  "usage": "scraping et recherche web"
+ },
+ {
+  "file": "fireflies.png",
+  "marque": "Fireflies",
+  "source": "https://img.logo.dev/fireflies.ai",
+  "releve": "2026-08-25",
+  "usage": "comptes rendus de réunion"
+ },
+ {
+  "file": "fullenrich.png",
+  "marque": "FullEnrich",
+  "source": "https://img.logo.dev/fullenrich.com",
+  "releve": "2026-08-25",
+  "usage": "enrichissement de contacts"
+ },
+ {
+  "file": "gamma.png",
+  "marque": "Gamma",
+  "source": "https://img.logo.dev/gamma.app",
+  "releve": "2026-08-25",
+  "usage": "présentations générées"
+ },
+ {
+  "file": "gemini.svg",
+  "marque": "Google Gemini",
+  "source": "https://cdn.simpleicons.org/googlegemini",
+  "releve": "2026-09-04",
+  "usage": "modèle Google — provenance rétablie par comparaison sha256 avec le CDN"
+ },
+ {
+  "file": "gep.svg",
+  "marque": "GEP",
+  "source": null,
+  "releve": null,
+  "usage": "logo d'éditeur — antérieur au relevé de provenance, source d'origine inconnue"
+ },
+ {
+  "file": "github.svg",
+  "marque": "GitHub",
+  "source": "https://cdn.simpleicons.org/github",
+  "releve": "2026-08-25",
+  "usage": "le code, et le suivi des chantiers"
+ },
+ {
+  "file": "gitlab.svg",
+  "marque": "GitLab",
+  "source": "https://cdn.simpleicons.org/gitlab",
+  "releve": "2026-09-04",
+  "usage": "dépôts de code"
+ },
+ {
+  "file": "gmail.png",
+  "marque": "Gmail",
+  "source": "https://img.logo.dev/gmail.com",
+  "releve": "2026-08-25",
+  "usage": "messagerie"
+ },
+ {
+  "file": "gmail.svg",
+  "marque": "Gmail",
+  "source": "https://cdn.simpleicons.org/gmail",
+  "releve": "2026-08-25",
+  "usage": "messagerie"
+ },
+ {
+  "file": "google-calendar.png",
+  "marque": "Google Calendar",
+  "source": "https://img.logo.dev/calendar.google.com",
+  "releve": "2026-08-25",
+  "usage": "agenda"
+ },
+ {
+  "file": "google-calendar.svg",
+  "marque": "Google Calendar",
+  "source": "https://cdn.simpleicons.org/googlecalendar",
+  "releve": "2026-08-25",
+  "usage": "agenda"
+ },
+ {
+  "file": "google-chat.png",
+  "marque": "Google Chat",
+  "source": "https://img.logo.dev/chat.google.com",
+  "releve": "2026-08-25",
+  "usage": "canal agent ↔ Mehdi"
+ },
+ {
+  "file": "google-chat.svg",
+  "marque": "Google Chat",
+  "source": "https://cdn.simpleicons.org/googlechat",
+  "releve": "2026-08-25",
+  "usage": "canal agent ↔ Mehdi"
+ },
+ {
+  "file": "google-cloud.png",
+  "marque": "Google Cloud",
+  "source": "https://img.logo.dev/cloud.google.com",
+  "releve": "2026-08-25",
+  "usage": "hébergement de la VM"
+ },
+ {
+  "file": "google-cloud.svg",
+  "marque": "Google Cloud",
+  "source": "https://cdn.simpleicons.org/googlecloud",
+  "releve": "2026-08-25",
+  "usage": "hébergement de la VM"
+ },
+ {
+  "file": "google-drive.svg",
+  "marque": "Google Drive",
+  "source": "https://cdn.simpleicons.org/googledrive",
+  "releve": "2026-09-04",
+  "usage": "stockage de fichiers — provenance rétablie par comparaison sha256 avec le CDN"
+ },
+ {
+  "file": "google-maps.png",
+  "marque": "Google Maps",
+  "source": "https://img.logo.dev/maps.google.com",
+  "releve": "2026-08-25",
+  "usage": "cartographie"
+ },
+ {
+  "file": "google-maps.svg",
+  "marque": "Google Maps",
+  "source": "https://cdn.simpleicons.org/googlemaps",
+  "releve": "2026-08-25",
+  "usage": "cartographie"
+ },
+ {
+  "file": "google.png",
+  "marque": "Google",
+  "source": "https://img.logo.dev/google.com",
+  "releve": "2026-08-25",
+  "usage": "Workspace — identité de la maison"
+ },
+ {
+  "file": "google.svg",
+  "marque": "Google",
+  "source": "https://cdn.simpleicons.org/google",
+  "releve": "2026-08-25",
+  "usage": "Workspace — identité de la maison"
+ },
+ {
+  "file": "hubspot.png",
+  "marque": "HubSpot",
+  "source": "https://img.logo.dev/hubspot.com",
+  "releve": "2026-08-25",
+  "usage": "historique CRM Upfund"
+ },
+ {
+  "file": "hubspot.svg",
+  "marque": "HubSpot",
+  "source": "https://cdn.simpleicons.org/hubspot",
+  "releve": "2026-09-04",
+  "usage": "CRM — historique Upfund"
+ },
+ {
+  "file": "huggingface.svg",
+  "marque": "Hugging Face",
+  "source": "https://cdn.simpleicons.org/huggingface",
+  "releve": "2026-09-04",
+  "usage": "modèles ouverts"
+ },
+ {
+  "file": "ivalua.svg",
+  "marque": "Ivalua",
+  "source": null,
+  "releve": null,
+  "usage": "logo d'éditeur — antérieur au relevé de provenance, source d'origine inconnue"
+ },
+ {
+  "file": "jaggaer.png",
+  "marque": "JAGGAER",
+  "source": null,
+  "releve": null,
+  "usage": "logo d'éditeur — antérieur au relevé de provenance, source d'origine inconnue"
+ },
+ {
+  "file": "jira.svg",
+  "marque": "Jira",
+  "source": "https://cdn.simpleicons.org/jira",
+  "releve": "2026-09-04",
+  "usage": "suivi des tickets"
+ },
+ {
+  "file": "linear.png",
+  "marque": "Linear",
+  "source": "https://img.logo.dev/linear.app",
+  "releve": "2026-08-25",
+  "usage": "suivi des projets techniques"
+ },
+ {
+  "file": "linear.svg",
+  "marque": "Linear",
+  "source": "https://cdn.simpleicons.org/linear",
+  "releve": "2026-08-25",
+  "usage": "suivi des projets techniques"
+ },
+ {
+  "file": "linkedin.png",
+  "marque": "LinkedIn",
+  "source": "https://img.logo.dev/linkedin.com",
+  "releve": "2026-08-25",
+  "usage": "prospection et notoriété"
+ },
+ {
+  "file": "lucca.png",
+  "marque": "Lucca",
+  "source": "https://img.logo.dev/lucca.fr",
+  "releve": "2026-09-04",
+  "usage": "SIRH — éditeur français"
+ },
+ {
+  "file": "make.svg",
+  "marque": "Make",
+  "source": "https://cdn.simpleicons.org/make",
+  "releve": "2026-09-03",
+  "usage": "automatisation no-code, cité dans le questionnaire Alegria"
+ },
+ {
+  "file": "mapbox.png",
+  "marque": "Mapbox",
+  "source": "https://img.logo.dev/mapbox.com",
+  "releve": "2026-08-25",
+  "usage": "cartographie"
+ },
+ {
+  "file": "mapbox.svg",
+  "marque": "Mapbox",
+  "source": "https://cdn.simpleicons.org/mapbox",
+  "releve": "2026-08-25",
+  "usage": "cartographie"
+ },
+ {
+  "file": "marketdojo.png",
+  "marque": "Market Dojo",
+  "source": null,
+  "releve": null,
+  "usage": "logo d'éditeur — antérieur au relevé de provenance, source d'origine inconnue"
+ },
+ {
+  "file": "microsoft-teams.svg",
+  "marque": "Microsoft Teams",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/0/07/Microsoft_Office_Teams_%282025%E2%80%93present%29.svg",
+  "releve": "2026-09-04",
+  "usage": "visioconférence et collaboration — logo.dev rendait le favicon microsoft.com/amazon.com, repris sur Wikimedia Commons"
+ },
+ {
+  "file": "microsoft.png",
+  "marque": "Microsoft",
+  "source": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b",
+  "releve": "2026-08-24",
+  "usage": "idem"
+ },
+ {
+  "file": "microsoft365.svg",
+  "marque": "Microsoft 365",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Microsoft_365_%282022%29.svg",
+  "releve": "2026-09-04",
+  "usage": "Copilot dans la suite bureautique — logo.dev rendait le favicon microsoft.com/amazon.com, repris sur Wikimedia Commons"
+ },
+ {
+  "file": "millionverifier.png",
+  "marque": "MillionVerifier",
+  "source": "https://img.logo.dev/millionverifier.com",
+  "releve": "2026-08-25",
+  "usage": "vérification d'adresses"
+ },
+ {
+  "file": "miro.svg",
+  "marque": "Miro",
+  "source": "https://cdn.simpleicons.org/miro",
+  "releve": "2026-09-04",
+  "usage": "tableau blanc collaboratif"
+ },
+ {
+  "marque": "Mistral AI",
+  "source": "https://img.logo.dev/mistral.ai",
+  "releve": "2026-09-01",
+  "usage": "modele souverain francais — plaquette Securite IA",
+  "file": "mistral.png"
+ },
+ {
+  "file": "mistral.svg",
+  "marque": "Mistral AI",
+  "source": null,
+  "releve": null,
+  "usage": "logo d'éditeur — antérieur au relevé de provenance, source d'origine inconnue"
+ },
+ {
+  "file": "monday.png",
+  "marque": "monday.com",
+  "source": "https://img.logo.dev/monday.com",
+  "releve": "2026-09-04",
+  "usage": "gestion de projet"
+ },
+ {
+  "file": "n8n.svg",
+  "marque": "n8n",
+  "source": "https://cdn.simpleicons.org/n8n",
+  "releve": "2026-09-04",
+  "usage": "automatisation auto-hébergée"
+ },
+ {
+  "file": "notion.svg",
+  "marque": "Notion",
+  "source": "https://cdn.simpleicons.org/notion",
+  "releve": "2026-09-04",
+  "usage": "second cerveau — provenance rétablie par comparaison sha256 avec le CDN"
+ },
+ {
+  "file": "odoo.svg",
+  "marque": "Odoo",
+  "source": "https://cdn.simpleicons.org/odoo",
+  "releve": "2026-09-04",
+  "usage": "ERP open source"
+ },
+ {
+  "file": "ollama.svg",
+  "marque": "Ollama",
+  "source": "https://cdn.simpleicons.org/ollama",
+  "releve": "2026-09-04",
+  "usage": "modèles locaux"
+ },
+ {
+  "file": "openai.svg",
+  "marque": "OpenAI",
+  "source": null,
+  "releve": null,
+  "usage": "logo d'éditeur — antérieur au relevé de provenance, source d'origine inconnue"
+ },
+ {
+  "file": "orisha.png",
+  "marque": "Orisha",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/ORISHA_LOGOTYPE_GROUPE_SIGNATURE_EXECUTE_POSITIF_RVB.svg/960px-ORISHA_LOGOTYPE_GROUPE_SIGNATURE_EXECUTE_POSITIF_RVB.svg.png",
+  "releve": "2026-08-28",
+  "usage": "schéma « qu'est-ce qu'un agent IA » — outil immobilier, pas un client"
+ },
+ {
+  "file": "outlook.svg",
+  "marque": "Microsoft Outlook",
+  "source": null,
+  "releve": null,
+  "usage": "logo d'éditeur — antérieur au relevé de provenance, source d'origine inconnue"
+ },
+ {
+  "file": "ovhcloud.png",
+  "marque": "OVHcloud",
+  "source": "https://img.logo.dev/ovhcloud.com",
+  "releve": "2026-09-04",
+  "usage": "hébergement souverain français"
+ },
+ {
+  "file": "payfit.png",
+  "marque": "PayFit",
+  "source": "https://img.logo.dev/payfit.com",
+  "releve": "2026-09-04",
+  "usage": "paie — éditeur français"
+ },
+ {
+  "file": "pennylane.png",
+  "marque": "Pennylane",
+  "source": "https://img.logo.dev/pennylane.com",
+  "releve": "2026-08-25",
+  "usage": "comptabilité"
+ },
+ {
+  "file": "perplexity.svg",
+  "marque": "Perplexity",
+  "source": "https://cdn.simpleicons.org/perplexity",
+  "releve": "2026-09-04",
+  "usage": "recherche assistée"
+ },
+ {
+  "file": "pexels.png",
+  "marque": "Pexels",
+  "source": "https://img.logo.dev/pexels.com",
+  "releve": "2026-08-25",
+  "usage": "photothèque"
+ },
+ {
+  "file": "pexels.svg",
+  "marque": "Pexels",
+  "source": "https://cdn.simpleicons.org/pexels",
+  "releve": "2026-08-25",
+  "usage": "photothèque"
+ },
+ {
+  "file": "phantombuster.png",
+  "marque": "PhantomBuster",
+  "source": "https://img.logo.dev/phantombuster.com",
+  "releve": "2026-08-25",
+  "usage": "extraction LinkedIn"
+ },
+ {
+  "file": "pipedrive.png",
+  "marque": "Pipedrive",
+  "source": "https://img.logo.dev/pipedrive.com",
+  "releve": "2026-09-03",
+  "usage": "le CRM d'Alegria"
+ },
+ {
+  "file": "powerbi.svg",
+  "marque": "Microsoft Power BI",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg",
+  "releve": "2026-09-04",
+  "usage": "restitution décisionnelle — logo.dev rendait le favicon microsoft.com/amazon.com, repris sur Wikimedia Commons"
+ },
+ {
+  "file": "precoro.png",
+  "marque": "Precoro",
+  "source": null,
+  "releve": null,
+  "usage": "logo d'éditeur — antérieur au relevé de provenance, source d'origine inconnue"
+ },
+ {
+  "file": "procurify.svg",
+  "marque": "Procurify",
+  "source": null,
+  "releve": null,
+  "usage": "logo d'éditeur — antérieur au relevé de provenance, source d'origine inconnue"
+ },
+ {
+  "file": "qonto.png",
+  "marque": "Qonto",
+  "source": "https://img.logo.dev/qonto.com",
+  "releve": "2026-08-25",
+  "usage": "banque Bootly"
+ },
+ {
+  "file": "sage.svg",
+  "marque": "Sage",
+  "source": "https://cdn.simpleicons.org/sage",
+  "releve": "2026-09-04",
+  "usage": "comptabilité et gestion"
+ },
+ {
+  "file": "salesforce.svg",
+  "marque": "Salesforce",
+  "source": null,
+  "releve": null,
+  "usage": "logo d'éditeur — antérieur au relevé de provenance, source d'origine inconnue"
+ },
+ {
+  "file": "sap-ariba.png",
+  "marque": "SAP Ariba",
+  "source": null,
+  "releve": null,
+  "usage": "logo d'éditeur — antérieur au relevé de provenance, source d'origine inconnue"
+ },
+ {
+  "file": "sap.svg",
+  "marque": "SAP",
+  "source": "https://cdn.simpleicons.org/sap",
+  "releve": "2026-09-04",
+  "usage": "ERP — périmètre FlowSpend — provenance rétablie par comparaison sha256 avec le CDN"
+ },
+ {
+  "file": "scaleway.svg",
+  "marque": "Scaleway",
+  "source": "https://cdn.simpleicons.org/scaleway",
+  "releve": "2026-08-25",
+  "usage": "hébergement souverain français"
+ },
+ {
+  "file": "sharepoint.svg",
+  "marque": "Microsoft SharePoint",
+  "source": null,
+  "releve": null,
+  "usage": "logo d'éditeur — antérieur au relevé de provenance, source d'origine inconnue"
+ },
+ {
+  "file": "silae.png",
+  "marque": "Silae",
+  "source": "https://img.logo.dev/silae.fr",
+  "releve": "2026-09-04",
+  "usage": "paie — éditeur français"
+ },
+ {
+  "file": "slack.svg",
+  "marque": "Slack",
+  "source": null,
+  "releve": null,
+  "usage": "logo d'éditeur — antérieur au relevé de provenance, source d'origine inconnue"
+ },
+ {
+  "file": "snowflake.svg",
+  "marque": "Snowflake",
+  "source": "https://cdn.simpleicons.org/snowflake",
+  "releve": "2026-09-04",
+  "usage": "entrepôt de données"
+ },
+ {
+  "file": "soneka.png",
+  "marque": "Soneka",
+  "source": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjXhB-UL2EzMfnriisJdwLBtD8SNmVVwFVng5ShCn7eQ&s=10",
+  "releve": "2026-08-28",
+  "usage": "schéma « qu'est-ce qu'un agent IA » — outil immobilier, pas un client"
+ },
+ {
+  "file": "soprasteria.svg",
+  "marque": "Sopra Steria",
+  "source": "https://commons.wikimedia.org/wiki/File:Sopra_Steria_logo.svg",
+  "releve": "2026-08-24",
+  "usage": "schéma « qu'est-ce qu'un agent IA ». Le fichier servi par soprasteria.com était « Next-logo-small.svg » — la marque d'une offre, pas le groupe. Repris sur Wikimedia Commons."
+ },
+ {
+  "file": "spendhq.jpg",
+  "marque": "SpendHQ",
+  "source": null,
+  "releve": null,
+  "usage": "logo d'éditeur — antérieur au relevé de provenance, source d'origine inconnue"
+ },
+ {
+  "file": "stripe.svg",
+  "marque": "Stripe",
+  "source": "https://cdn.simpleicons.org/stripe",
+  "releve": "2026-09-04",
+  "usage": "encaissement en ligne"
+ },
+ {
+  "file": "synertrade.png",
+  "marque": "SynerTrade",
+  "source": null,
+  "releve": null,
+  "usage": "logo d'éditeur — antérieur au relevé de provenance, source d'origine inconnue"
+ },
+ {
+  "file": "tailscale.png",
+  "marque": "Tailscale",
+  "source": "https://img.logo.dev/tailscale.com",
+  "releve": "2026-08-25",
+  "usage": "réseau privé d'accès à la VM"
+ },
+ {
+  "file": "tailscale.svg",
+  "marque": "Tailscale",
+  "source": "https://cdn.simpleicons.org/tailscale",
+  "releve": "2026-08-25",
+  "usage": "réseau privé d'accès à la VM"
+ },
+ {
+  "file": "trello.svg",
+  "marque": "Trello",
+  "source": "https://cdn.simpleicons.org/trello",
+  "releve": "2026-09-04",
+  "usage": "suivi de tâches"
+ },
+ {
+  "file": "whatsapp.svg",
+  "marque": "WhatsApp",
+  "source": "https://cdn.simpleicons.org/whatsapp",
+  "releve": "2026-08-25",
+  "usage": "canal client — Evolution API"
+ },
+ {
+  "file": "yardi.png",
+  "marque": "Yardi",
+  "source": "https://s3.amazonaws.com//bluesky_portal_prod/uploads/redactor_images/1597157884.2094758_Yardi__Primary__Gradient_650w.png",
+  "releve": "2026-08-28",
+  "usage": "schéma « qu'est-ce qu'un agent IA » — outil immobilier, pas un client"
+ },
+ {
+  "file": "zapier.svg",
+  "marque": "Zapier",
+  "source": "https://cdn.simpleicons.org/zapier",
+  "releve": "2026-09-04",
+  "usage": "automatisation sans code"
+ },
+ {
+  "file": "zoom.svg",
+  "marque": "Zoom",
+  "source": "https://cdn.simpleicons.org/zoom",
+  "releve": "2026-09-04",
+  "usage": "visioconférence"
+ }
+]

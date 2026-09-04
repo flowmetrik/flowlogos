@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>flowlogos — catalogue des assets globaux Flowmetrik</title>
+<meta name="description" content="Catalogue documenté des logos d'éditeurs et des icônes utilisés par Flowmetrik. Chaque logo appartient à son propriétaire.">
+<style>
+  /* Sobre par contrat : fond blanc, texte noir, gris de gradation. Aucune couleur
+     n'est introduite par la page — la seule couleur affichée est celle des logos. */
+  :root{
+    --encre:#000; --papier:#fff;
+    --gris-1:#f5f5f5; --gris-2:#e5e5e5; --gris-3:#8a8a8a; --gris-4:#565656;
+    --pas:8px;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--papier); color:var(--encre);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size:15px; line-height:1.55;
+  }
+  .enveloppe{max-width:1180px; margin:0 auto; padding:calc(var(--pas)*5) calc(var(--pas)*3) calc(var(--pas)*10)}
+  header{border-bottom:1px solid var(--gris-2); padding-bottom:calc(var(--pas)*3)}
+  h1{font-size:26px; letter-spacing:-.02em; margin:0 0 4px}
+  .sous-titre{color:var(--gris-4); margin:0; max-width:62ch}
+  .compteurs{color:var(--gris-3); font-size:13px; margin-top:var(--pas)}
+  .barre{
+    position:sticky; top:0; z-index:2; background:var(--papier);
+    border-bottom:1px solid var(--gris-2);
+    padding:calc(var(--pas)*2) 0; margin-bottom:calc(var(--pas)*3);
+    display:flex; gap:var(--pas); flex-wrap:wrap; align-items:center;
+  }
+  input[type=search]{
+    flex:1 1 260px; min-width:0; font:inherit; color:inherit; background:var(--papier);
+    border:1px solid var(--gris-2); border-radius:6px; padding:9px 12px;
+  }
+  input[type=search]:focus{outline:2px solid var(--encre); outline-offset:-1px; border-color:var(--encre)}
+  .filtres{display:flex; gap:4px}
+  .filtres button{
+    font:inherit; font-size:13px; color:var(--gris-4); background:var(--papier);
+    border:1px solid var(--gris-2); border-radius:6px; padding:8px 12px; cursor:pointer;
+  }
+  .filtres button[aria-pressed=true]{background:var(--encre); color:var(--papier); border-color:var(--encre)}
+  .etat{color:var(--gris-3); font-size:13px; margin-left:auto; white-space:nowrap}
+  h2{font-size:13px; text-transform:uppercase; letter-spacing:.08em; color:var(--gris-3);
+     margin:calc(var(--pas)*4) 0 var(--pas); font-weight:600}
+  .grille{display:grid; grid-template-columns:repeat(auto-fill,minmax(146px,1fr)); gap:var(--pas)}
+  .carte{
+    border:1px solid var(--gris-2); border-radius:8px; background:var(--papier);
+    padding:var(--pas); text-align:center; cursor:pointer; overflow:hidden;
+    display:flex; flex-direction:column; gap:6px; font:inherit; color:inherit;
+  }
+  .carte:hover,.carte:focus-visible{border-color:var(--encre); outline:none}
+  .vignette{
+    height:72px; display:flex; align-items:center; justify-content:center;
+    background:var(--gris-1); border-radius:5px;
+  }
+  .vignette img{max-width:72%; max-height:52px; display:block}
+  .carte[data-type=icon] .vignette img{max-height:34px; max-width:34px}
+  .slug{font-size:12px; font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+        overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+  .nom{font-size:11px; color:var(--gris-3); overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+  .vide{color:var(--gris-3); padding:calc(var(--pas)*4) 0}
+  footer{border-top:1px solid var(--gris-2); margin-top:calc(var(--pas)*6);
+         padding-top:calc(var(--pas)*3); color:var(--gris-4); font-size:13px; max-width:76ch}
+  a{color:var(--encre)}
+  kbd{border:1px solid var(--gris-2); border-bottom-width:2px; border-radius:4px;
+      padding:1px 5px; font-size:11px; font-family:inherit}
+  #copie{
+    position:fixed; left:50%; bottom:24px; transform:translateX(-50%);
+    background:var(--encre); color:var(--papier); border-radius:6px;
+    padding:9px 14px; font-size:13px; opacity:0; pointer-events:none; transition:opacity .15s;
+    max-width:92vw; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;
+  }
+  #copie.vu{opacity:1}
+</style>
+</head>
+<body>
+<div class="enveloppe">
+  <header>
+    <h1>flowlogos</h1>
+    <p class="sous-titre">Le catalogue des assets globaux de Flowmetrik : logos d'éditeurs
+      et icônes, servis comme une bibliothèque réutilisable. Chaque logo reste la marque de
+      son propriétaire — il est réuni ici pour <em>identifier</em> l'outil, pas pour en tirer
+      un signe distinctif.</p>
+    <p class="compteurs" id="compteurs"></p>
+  </header>
+
+  <div class="barre">
+    <input type="search" id="recherche" placeholder="Chercher un logo ou une icône…"
+           autofocus autocomplete="off" spellcheck="false" aria-label="Chercher dans le catalogue">
+    <div class="filtres" role="group" aria-label="Filtrer par type">
+      <button type="button" data-filtre="tout" aria-pressed="true">Tout</button>
+      <button type="button" data-filtre="vendor" aria-pressed="false">Logos</button>
+      <button type="button" data-filtre="icon" aria-pressed="false">Icônes</button>
+    </div>
+    <span class="etat" id="etat"></span>
+  </div>
+
+  <main id="resultats"></main>
+
+  <footer>
+    <p><strong>Se servir d'un asset.</strong> Cliquer sur une vignette copie son URL brute.
+      Le motif est
+      <code>https://raw.githubusercontent.com/flowmetrik/flowlogos/main/&lt;dossier&gt;/&lt;fichier&gt;</code>.
+      Les métadonnées de chaque asset — provenance, empreinte sha256, teinte de marque —
+      vivent dans <a href="../catalogue.json">catalogue.json</a>.</p>
+    <p><strong>Marques.</strong> Les logos d'éditeurs sont les marques déposées de leurs
+      propriétaires respectifs. Flowmetrik n'est ni affilié à eux, ni sponsorisé par eux, et
+      ne revendique aucun droit sur ces signes. Lire
+      <a href="https://github.com/flowmetrik/flowlogos/blob/main/MARQUES.md">MARQUES.md</a>
+      avant tout réemploi. Aucun logo de client ne figure dans ce dépôt.</p>
+    <p><kbd>/</kbd> met le curseur dans la recherche, <kbd>Échap</kbd> l'efface.
+      Page générée par <code>tools/build_catalogue.py</code> — ne pas l'éditer à la main.</p>
+  </footer>
+</div>
+
+<div id="copie" role="status" aria-live="polite"></div>
+
+<script id="donnees" type="application/json">/*__CATALOGUE__*/</script>
+<script>
+(function(){
+  "use strict";
+  var CAT = JSON.parse(document.getElementById("donnees").textContent);
+  var BRUT = "https://raw.githubusercontent.com/flowmetrik/flowlogos/main/";
+  var assets = CAT.assets.map(function(a){
+    // L'index de recherche est calculé une fois : la frappe ne doit rien recalculer.
+    return Object.assign({}, a, {
+      _index: [a.slug, a.nom, a.type, a.source || "", a.usage || ""]
+        .join(" ").toLowerCase()
+        .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+    });
+  });
+
+  var champ = document.getElementById("recherche");
+  var sortie = document.getElementById("resultats");
+  var etat = document.getElementById("etat");
+  var bulle = document.getElementById("copie");
+  var filtre = "tout";
+
+  document.getElementById("compteurs").textContent =
+    CAT.total + " assets — " + CAT.par_type.vendor + " logos d'éditeurs, "
+    + CAT.par_type.icon + " icônes.";
+
+  function normalise(s){
+    return s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+  }
+
+  function carte(a){
+    var b = document.createElement("button");
+    b.className = "carte"; b.type = "button";
+    b.dataset.type = a.type; b.dataset.fichier = a.fichier;
+    b.title = a.nom + " — " + a.fichier + (a.source ? "\nsource : " + a.source : "");
+    var v = document.createElement("div"); v.className = "vignette";
+    var img = document.createElement("img");
+    img.src = "../" + a.fichier; img.alt = a.nom; img.loading = "lazy";
+    v.appendChild(img);
+    var slug = document.createElement("div"); slug.className = "slug"; slug.textContent = a.slug;
+    var nom = document.createElement("div"); nom.className = "nom"; nom.textContent = a.nom;
+    b.appendChild(v); b.appendChild(slug); b.appendChild(nom);
+    return b;
+  }
+
+  function section(titre, liste){
+    if (!liste.length) return null;
+    var frag = document.createDocumentFragment();
+    var h = document.createElement("h2");
+    h.textContent = titre + " — " + liste.length;
+    var g = document.createElement("div"); g.className = "grille";
+    liste.forEach(function(a){ g.appendChild(carte(a)); });
+    frag.appendChild(h); frag.appendChild(g);
+    return frag;
+  }
+
+  function rendre(){
+    var q = normalise(champ.value.trim());
+    var mots = q ? q.split(/\s+/) : [];
+    var vus = assets.filter(function(a){
+      if (filtre !== "tout" && a.type !== filtre) return false;
+      return mots.every(function(m){ return a._index.indexOf(m) !== -1; });
+    });
+    sortie.textContent = "";
+    var logos = vus.filter(function(a){ return a.type === "vendor"; });
+    var icones = vus.filter(function(a){ return a.type === "icon"; });
+    var s1 = section("Logos d'éditeurs", logos);
+    var s2 = section("Icônes", icones);
+    if (s1) sortie.appendChild(s1);
+    if (s2) sortie.appendChild(s2);
+    if (!vus.length){
+      var p = document.createElement("p"); p.className = "vide";
+      p.textContent = "Rien pour « " + champ.value.trim() + " ».";
+      sortie.appendChild(p);
+    }
+    etat.textContent = vus.length + " / " + assets.length;
+  }
+
+  var minuteur;
+  function montrer(texte){
+    bulle.textContent = texte; bulle.classList.add("vu");
+    clearTimeout(minuteur);
+    minuteur = setTimeout(function(){ bulle.classList.remove("vu"); }, 2200);
+  }
+
+  sortie.addEventListener("click", function(e){
+    var b = e.target.closest(".carte");
+    if (!b) return;
+    var url = BRUT + b.dataset.fichier;
+    // navigator.clipboard n'existe pas hors contexte sécurisé (file://) : repli textarea.
+    if (navigator.clipboard && window.isSecureContext){
+      navigator.clipboard.writeText(url).then(function(){ montrer("copié — " + url); },
+                                             function(){ montrer(url); });
+    } else {
+      var t = document.createElement("textarea");
+      t.value = url; t.setAttribute("readonly", "");
+      t.style.position = "fixed"; t.style.opacity = "0";
+      document.body.appendChild(t); t.select();
+      try { document.execCommand("copy"); montrer("copié — " + url); }
+      catch (err) { montrer(url); }
+      document.body.removeChild(t);
+    }
+  });
+
+  document.querySelectorAll(".filtres button").forEach(function(b){
+    b.addEventListener("click", function(){
+      filtre = b.dataset.filtre;
+      document.querySelectorAll(".filtres button").forEach(function(o){
+        o.setAttribute("aria-pressed", String(o === b));
+      });
+      rendre();
+    });
+  });
+
+  champ.addEventListener("input", rendre);
+  document.addEventListener("keydown", function(e){
+    if (e.key === "/" && document.activeElement !== champ){ e.preventDefault(); champ.focus(); champ.select(); }
+    else if (e.key === "Escape" && document.activeElement === champ){ champ.value = ""; rendre(); }
+  });
+
+  rendre();
+})();
+</script>
+</body>
+</html>
